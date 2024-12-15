@@ -1,9 +1,9 @@
 require("config.lazy")
 
--- GUI settings
--- Numbering
-vim.wo.number = true
-vim.wo.relativenumber = true
+-- Options
+vim.opt.shiftwidth = 4
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- Keymaps
 -- Lua
