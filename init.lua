@@ -4,7 +4,7 @@ require("config.lazy")
 vim.opt.shiftwidth = 2
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.clipboard = "unamedplus"
+vim.opt.clipboard = "unnamedplus"
 
 -- Keymaps
 -- Lua
