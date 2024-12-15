@@ -1,5 +1,10 @@
 require("config.lazy")
 
+-- GUI settings
+-- Numbering
+vim.wo.number = true
+vim.wo.relativenumber = true
+
 -- Keymaps
 -- Lua
 vim.keymap.set("n", "<SPACE><SPACE>x", "<cmd>source %<CR>")
