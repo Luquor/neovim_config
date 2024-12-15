@@ -26,6 +26,6 @@ require("lazy").setup({
   spec = {
     { "bluz71/vim-moonfly-colors", config = function() vim.cmd.colorscheme "moonfly" end },
     -- import your plugins
-    -- { import = "plugins" },
+    { import = "config.plugins" },
   },
 })
